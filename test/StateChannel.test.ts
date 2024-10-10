@@ -14,7 +14,7 @@ async function signState(signer: any, stateHash: string): Promise<string[]> {
   return [v, r, s];
 }
 
-describe("Airdrop Contract", function () {
+describe("StateChannel Contract", function () {
   let stateChannel: any;
   let participantA: any, participantB: any, participantC: any;
 
